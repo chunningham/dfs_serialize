@@ -1,0 +1,13 @@
+[package]
+name = "dfs_serialize"
+version = "0.1.0"
+authors = ["Charles Cunningham <c.a.cunningham6@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+itoa = "0.4"
+thiserror = "1.0"
+ryu = "1.0"
